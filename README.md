@@ -1,8 +1,8 @@
 # LLM benchmark
 
-As the leaked memo from Google ([Google "We Have No Moat, And Neither Does OpenAI"](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither)) indicates, it is very clear that the open source LLMs will play very important role.
+According to the leaked memo from Google titled [Google "We Have No Moat, And Neither Does OpenAI"](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither), it is apparent that the open source LLMs will play very important role.
 
-It means we need a set of "standard tests" (benchmarks) to evaluate various LLMs. While there are already some efforts by other researchers (such as "[SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems](https://w4ngatang.github.io/static/papers/superglue.pdf)"), this is our attempt to compile a set of questions, which helps us to identify the strength and weakness of various LLMs.
+It means we need a set of "standard tests" (benchmarks) to evaluate various LLMs. While there are already some efforts by other researchers (such as "[SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems](https://w4ngatang.github.io/static/papers/superglue.pdf)"), this is our attempt to compile a set of questions, which help us to identify the strength and weakness of various LLMs.
 
 ## List of questions
 
