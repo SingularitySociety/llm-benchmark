@@ -29,3 +29,6 @@ We need to fly a drone around a square building (10 meter x 10 meter), keeping t
 On a par 72 golf course, I had one birdie, three bogies and one double bogy, and the rest was par. What was my score?
 
 We expect that this rental house gives us $1,000 a month of income in next ten years, and allows us to sell it for $300,000 at the end. What is the net present value of this house, when the interest rate is 4%.
+
+I have two 24-hour clocks, A and B. A shows the correct time only once a day, while B shows the correct time only once a week. Assuming each clock moves at the constant speed, describe what is going on with them.
+
