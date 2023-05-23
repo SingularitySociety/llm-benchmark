@@ -17,6 +17,7 @@
  - I have two 24-hour clocks, A and B. A shows the correct time only once a day, while B shows the correct time only once a week. Assuming each clock moves at the constant speed, describe what is going on with them.
  - On a standard clock, the hour hand (short hand) completes two full cycles every day, while the minute hand (long hand) completes twenty-four. However, there was a peculiar clock where the hour hand functioned normally, but the minute hand completed twenty-six full cycles per day instead of the usual twenty-four. If this unusual clock was set to 12 o'clock, when would the hour and minute hands align next?
  - When Tom puts on his pants, he does not look at them carefully, so he puts them on inside out or in the wrong front and back. How many ways are there to put on pants incorrectly?
+ - I would like to make a 4% brine solution by adding 5% brine to 1 liter of 2% brine. How much should I add?
 
 ## Japanese
  - サイコロ賭博の問題です。サイコロを投げる前に、どの目が出るかを予測し、それが当たった場合には、賭け金が目の数倍になって返ってくるけど、外れたら賭け金が没収されてしまいます。期待値を最大にする作戦を考えてください。
