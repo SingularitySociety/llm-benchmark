@@ -1,6 +1,6 @@
 require "json"
 
-text = open(__dir__ + "/../data/en_raw.txt").read
+text = open(__dir__ + "/../text/en.txt").read
 
 ret = []
 text.split(/(\r|\n)+/).each do |line|
