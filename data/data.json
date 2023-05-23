@@ -86,6 +86,11 @@
   },
   {
     "text": {
+      "en": "In the marathon race, I started out in 10th place, but at the 30 km mark, three people passed me, and at the 40 km mark, two more passed me. However, after entering the stadium, I worked hard and passed six people to reach the goal. What was my final position?"
+    }
+  },
+  {
+    "text": {
       "ja": "サイコロ賭博の問題です。サイコロを投げる前に、どの目が出るかを予測し、それが当たった場合には、賭け金が目の数倍になって返ってくるけど、外れたら賭け金が没収されてしまいます。期待値を最大にする作戦を考えてください。"
     }
   },
