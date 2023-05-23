@@ -1,11 +1,11 @@
 require "json"
 
-text = open(__dir__ + "/../data/raw.txt").read
+text = open(__dir__ + "/../data/en_raw.txt").read
 
 ret = []
 text.split(/(\r|\n)+/).each do |line|
   if line.strip != ""
-    ret.push({text: line.strip})
+    ret.push({text: {en: line.strip}})
   end
 end
 
