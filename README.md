@@ -10,7 +10,7 @@ It means we need a set of "standard tests" (benchmarks) to evaluate various LLMs
 
 ## Usage
 
-- Update quest list text file in [text direcory](./text/).
+- Update question list text file in [text direcory](./text/).
 - Update JSON file.
   - `ruby scripts/ToJson.rb`
 - Update Question markdown file.
