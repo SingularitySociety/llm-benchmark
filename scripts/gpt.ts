@@ -28,29 +28,55 @@ export const ask = async (
   }
 };
 
-const main = async () => {
-  const dataSet = JSON.parse(fs.readFileSync(__dirname + '/../data/data.json', 'utf8'));
-
-  const ret = [];
+const main = async (resultModelKey: string, chat: (text: string) => Promise<string>) => {
+  const dataFile = __dirname + '/../data/data.json';
+  const resultFile = __dirname + '/../results/data.json';
+  
+  const dataSet = JSON.parse(fs.readFileSync(dataFile, 'utf8'));
+  const resultDataSet = (() => {
+    if (fs.existsSync(resultFile)) {
+      return JSON.parse(fs.readFileSync(resultFile, 'utf8'));
+    }
+    return [];
+  })();
+  
   for await (const data of dataSet) {
-    const messages: ChatCompletionRequestMessage[] = [];
-    messages.push({
-      role: "user",
-      content: data.text.en || data.text.ja,
-    });
+    const text = data.text.en || data.text.ja;
+    const result = await chat(text);
+    const matchKey = Object.keys(resultDataSet).find((res: string) => resultDataSet[res].id === data.id);
+    if (matchKey) {
+      const tmp = resultDataSet[matchKey];
+      tmp ["result"][resultModelKey] = result;
+    } else {
+      data["result"] = {};
+      data["result"][resultModelKey] = result;
+      resultDataSet.push(data);
+    }
     
-    const answer = await ask(messages, "gpt-3.5-turbo");
-    const result = answer?.content || "";
-
-    data["result"] = data["result"] || {};
-    data["result"]["gpt35"] = result;
-
-    ret.push(data);
-
-    fs.writeFileSync(__dirname + '/../results/data.json',  JSON.stringify(ret, null, '    '));
-
-    console.log(ret);
+    fs.writeFileSync(resultFile,  JSON.stringify(resultDataSet, null, '    '));
+    console.log(resultDataSet);
   }
 };
 
-main();
+const gptChat = (modelType: string) => {
+  return async (text: string) => {
+    const messages: ChatCompletionRequestMessage[] = [];
+    messages.push({
+      role: "user",
+      content: text
+    });
+    
+    const answer = await ask(messages, modelType);
+    const result = answer?.content || "";
+    return result;
+  };
+};
+
+const resultModelKey = "gpt35";
+const gptChat35 = gptChat("gpt-3.5-turbo");
+
+main(resultModelKey, gptChat35);
+
+const resultModelKey = "gpt4";
+const gptChat35 = gptChat("gpt-4");
+main(resultModelKey, gptChat35);
