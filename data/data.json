@@ -76,6 +76,11 @@
   },
   {
     "text": {
+      "en": "When Tom puts on his pants, he does not look at them carefully, so he puts them on inside out or in the wrong front and back. How many ways are there to put on pants incorrectly?"
+    }
+  },
+  {
+    "text": {
       "ja": "サイコロ賭博の問題です。サイコロを投げる前に、どの目が出るかを予測し、それが当たった場合には、賭け金が目の数倍になって返ってくるけど、外れたら賭け金が没収されてしまいます。期待値を最大にする作戦を考えてください。"
     }
   },
