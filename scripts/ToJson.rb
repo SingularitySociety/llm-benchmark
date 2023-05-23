@@ -1,6 +1,6 @@
 require "json"
 
-text = open(__dir__ + "/raw.txt").read
+text = open(__dir__ + "/../data/raw.txt").read
 
 ret = []
 text.split(/(\r|\n)+/).each do |line|
@@ -9,6 +9,6 @@ text.split(/(\r|\n)+/).each do |line|
   end
 end
 
-File.open(__dir__ + "/data.json","w") do |f|
+File.open(__dir__ + "/../data/data.json","w") do |f|
   f.write(JSON.pretty_generate(ret))
 end
