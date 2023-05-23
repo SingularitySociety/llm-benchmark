@@ -1,0 +1,39 @@
+name: Update files from text
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "text/**"
+
+permissions:
+  contents: write
+
+jobs:
+  update_files_from_text:
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'SingularitySociety'
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Ruby
+        uses:  ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+      - name: Update files from text
+        run: |
+          ruby scripts/ToJson.rb
+          ruby scripts/JsonToMD.rb
+      - name: Setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+      - name: Push to repository
+        run: |
+          if [ $(git diff --name-only | wc -l) != 0 ]; then
+            git add .
+            git commit -m "Update files from text"
+            git push origin main
+          else
+            echo "No change on the original text files."
+          fi
