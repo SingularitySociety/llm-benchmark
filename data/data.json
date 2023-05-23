@@ -68,5 +68,15 @@
     "text": {
       "en": "I have two 24-hour clocks, A and B. A shows the correct time only once a day, while B shows the correct time only once a week. Assuming each clock moves at the constant speed, describe what is going on with them."
     }
+  },
+  {
+    "text": {
+      "ja": "サイコロ賭博の問題です。サイコロを投げる前に、どの目が出るかを予測し、それが当たった場合には、賭け金が目の数倍になって返ってくるけど、外れたら賭け金が没収されてしまいます。期待値を最大にする作戦を考えてください。"
+    }
+  },
+  {
+    "text": {
+      "ja": "箱の中に、ボールが１つ入っているが、色が白か黒かは不明（５０：５０）。その箱に白いボール一つ入れ（この時点で箱の中には合計２個のボール）、かき混ぜたのちに、ランダムに１つボールを取り出したら白だった。箱の中に残っているボールが黒である可能性は何％？"
+    }
   }
 ]
