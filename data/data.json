@@ -2,87 +2,104 @@
   {
     "text": {
       "en": "Fill an appropriate word in the space for this text. \"I parked my car in the compact parking space because it looked __ enough\". Please explain why you think so."
-    }
+    },
+    "id": "3256d5dad61b2be5ace90e56afee9dd5427aac6137158c7eb60368dfbe0c9267"
   },
   {
     "text": {
       "en": "I bought 10 oranges and received 2 as an extra. I immediately ate three of them, but the next day two were rotten, so I threw them away. After eating one more, I mashed four of them into juice. How many oranges are left? Explain why."
-    }
+    },
+    "id": "c72eff30de0b5ef0439fd80c543a3148dfc40a77977fe007f5a1ede32240821c"
   },
   {
     "text": {
       "en": "The tallest person in the class is Tom. The tallest girl in Tom's grade is Kathy in another class. Who is taller, Tom or Kathy? Explain why."
-    }
+    },
+    "id": "17216792cf436eef002d14059852dd10a02d84712e3cf28026d867e23c0275ff"
   },
   {
     "text": {
       "en": "Tom's sister is three years younger than Tom and exactly one-tenth his mother's age. His mother married in her twenties and has been married for eight years this year. How old is Tom? Explain why."
-    }
+    },
+    "id": "f9aee7191c8faf8bd902ffd98028ceae8d456eb082bb59e933d8d78b85e6fb95"
   },
   {
     "text": {
       "en": "I put a black paper in a yellow envelope, a white paper in a red envelope. I placed a red envelope on top of a yellow envelope and taped them together. I lifted those combined envelopes and turned them upside down. Which is on top, the black paper or the white paper? Please explain why."
-    }
+    },
+    "id": "89a7c4f7647cd43d0be9b945863c50abdba4fdbd2ce8399977a5ac7422cfcfb3"
   },
   {
     "text": {
       "en": "I left home with the exact money to I need to fly to Osaka, but changed my mind on the way and took the train instead. I bought a 1,000 yen box lunch on the bullet train. When I arrived in Osaka, I had 500 yen left in my wallet. If you compare only the fare, how much cheaper is the train than the plane? Explain why."
-    }
+    },
+    "id": "de725e6f711ade9ab7719dc08b7cd92ec82710e47ed9896a5707c4eccdd93071"
   },
   {
     "text": {
       "en": "This is a dice gambling problem. Before you throw a dice, you must predict which number you will get. If you get it right, you get your bet back multiplied by the number, but otherwise you lose your bet. Think of a strategy that maximizes the expected return. Please explain why."
-    }
+    },
+    "id": "e94aa8ab29b06ef3113777eb768036024b8f04784ce2c96c46065b80b24ce92d"
   },
   {
     "text": {
       "en": "You are trying to escape from a well that is 30 meters deep. It takes an hour to climb 3 meters but you slide down 2 meters immediately afterwards. How many hours will it take you to escape? Explain why."
-    }
+    },
+    "id": "04c7e2a16f00e16aeefe3fec20328043d52e91bd87a104fc09717c917f107701"
   },
   {
     "text": {
       "en": "Please write the most efficient formula to determine whether two one dimensional vectors, vector A (a0, a1; where a1>a0) and vector B (b0, b1; where b1>b0) overlap in any part, and explain why."
-    }
+    },
+    "id": "42cbdb90265c7fead08a450664fde92ff4e7313b8e15f7255ecddb187b0c3b56"
   },
   {
     "text": {
       "en": "You are a flight planner of drones. When you fly around a corner of a building with a constance distance, notice that you need to fly along a circular arc around that corner."
-    }
+    },
+    "id": "c585c25eee0f0e8c04411c21e3cc4ba554fd8aa5b7ac959099d2a166d3801ade"
   },
   {
     "text": {
       "en": "We need to fly a drone around a square building (10 meter x 10 meter), keeping the horizontal distance constant (2 meters). Please describe the shape of the flight path step by step, and tell the total distance."
-    }
+    },
+    "id": "4366572e148e01411e522d17a6f2b35d9f4d9c09badee2201e87f5ede379b2e7"
   },
   {
     "text": {
       "en": "On a par 72 golf course, I had one birdie, three bogies and one double bogy, and the rest was par. What was my score?"
-    }
+    },
+    "id": "ac4b8da06a77eeded270934b8871660fbc0b907040c18949512a7694e4ed060d"
   },
   {
     "text": {
       "en": "We expect that this rental house gives us $1,000 a month of income in next ten years, and allows us to sell it for $300,000 at the end. What is the net present value of this house, when the interest rate is 4%."
-    }
+    },
+    "id": "8339be7424a34c589961c729995d1a4087c8090da21748b4c81a960d47e77c88"
   },
   {
     "text": {
       "en": "I have two 24-hour clocks, A and B. A shows the correct time only once a day, while B shows the correct time only once a week. Assuming each clock moves at the constant speed, describe what is going on with them."
-    }
+    },
+    "id": "15ba68bd51e6c3517886d93e5feb7eba0b0d6c3ead709d85764b0eca31006d65"
   },
   {
     "text": {
       "en": "On a standard clock, the hour hand (short hand) completes two full cycles every day, while the minute hand (long hand) completes twenty-four. However, there was a peculiar clock where the hour hand functioned normally, but the minute hand completed twenty-six full cycles per day instead of the usual twenty-four. If this unusual clock was set to 12 o'clock, when would the hour and minute hands align next?"
-    }
+    },
+    "id": "68cd353648c66b63e228e1d0e28086083430b4ad3d47f435e070df31130d2e57"
   },
   {
     "text": {
       "en": "When Tom puts on his pants, he does not look at them carefully, so he puts them on inside out or in the wrong front and back. How many ways are there to put on pants incorrectly?"
-    }
+    },
+    "id": "cd6c2f7bf13f431ed219579891712b9f9c9276508cea9853fcb2ecf62d08e188"
   },
   {
     "text": {
       "en": "I would like to make a 4% brine solution by adding 5% brine to 1 liter of 2% brine. How much should I add?"
-    }
+    },
+    "id": "fa1b19a5edafe44a5676ee4f25cfba0c0fb54ebdaf20bd36cc734e76cbbe53f0"
   },
   {
     "text": {
@@ -92,11 +109,13 @@
   {
     "text": {
       "ja": "サイコロ賭博の問題です。サイコロを投げる前に、どの目が出るかを予測し、それが当たった場合には、賭け金が目の数倍になって返ってくるけど、外れたら賭け金が没収されてしまいます。期待値を最大にする作戦を考えてください。"
-    }
+    },
+    "id": "de8c7b28819c560fd4be0abafd0fe853186632d107bb92d5c60c555d855fade1"
   },
   {
     "text": {
       "ja": "箱の中に、ボールが１つ入っているが、色が白か黒かは不明（５０：５０）。その箱に白いボール一つ入れ（この時点で箱の中には合計２個のボール）、かき混ぜたのちに、ランダムに１つボールを取り出したら白だった。箱の中に残っているボールが黒である可能性は何％？"
-    }
+    },
+    "id": "a0b249102c0031397ef3334eaca8d1f4aee59821bd12dcfbc0f48261ee9262fc"
   }
 ]

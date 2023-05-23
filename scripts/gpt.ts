@@ -1,5 +1,6 @@
 import * as fs from 'fs';
 import { Configuration, OpenAIApi, ChatCompletionRequestMessage } from "openai";
+import { main } from "./common";
 
 const gpt_token = process.env.GPT_API_KEY;
 
@@ -12,7 +13,7 @@ export const ask = async (
   messages: ChatCompletionRequestMessage[],
   model = "gpt-3.5-turbo-0301"
 ) => {
-  console.log(messages, model);
+  // console.log(messages, model);
   try {
     const response = await openai.createChatCompletion({
       model: model,
@@ -28,29 +29,25 @@ export const ask = async (
   }
 };
 
-const main = async () => {
-  const dataSet = JSON.parse(fs.readFileSync(__dirname + '/../data/data.json', 'utf8'));
-
-  const ret = [];
-  for await (const data of dataSet) {
+const gptChat = (modelType: string) => {
+  return async (text: string) => {
     const messages: ChatCompletionRequestMessage[] = [];
     messages.push({
       role: "user",
-      content: data.text.en || data.text.ja,
+      content: text
     });
     
-    const answer = await ask(messages, "gpt-3.5-turbo");
+    const answer = await ask(messages, modelType);
     const result = answer?.content || "";
-
-    data["result"] = data["result"] || {};
-    data["result"]["gpt35"] = result;
-
-    ret.push(data);
-
-    fs.writeFileSync(__dirname + '/../results/data.json',  JSON.stringify(ret, null, '    '));
-
-    console.log(ret);
-  }
+    return result;
+  };
 };
 
-main();
+const resultModelKey = "gpt35";
+const gptChat35 = gptChat("gpt-3.5-turbo");
+
+main(resultModelKey, gptChat35);
+
+// const resultModelKey = "gpt4";
+// const gptChat35 = gptChat("gpt-4");
+// main(resultModelKey, gptChat35);

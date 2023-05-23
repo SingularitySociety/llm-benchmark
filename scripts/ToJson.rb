@@ -1,12 +1,16 @@
 require "json"
-
+require "digest/sha2"
 ret = []
 
 def readFile(ret, file, locale) 
-  text = open(__dir__ + "/../text/" + file).read
-  text.split(/(\r|\n)+/).each do |line|
-    if line.strip != ""
-      ret.push({text: {locale => line.strip}})
+  textData = open(__dir__ + "/../text/" + file).read
+  textData.split(/(\r|\n)+/).each do |line|
+    text = line.strip
+    if text != ""
+      ret.push({
+                 text: {locale => text},
+                 id: Digest::SHA256.hexdigest(text)
+               })
     end
   end
 end

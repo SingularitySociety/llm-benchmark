@@ -3,7 +3,6 @@ require "json"
 json = open(__dir__ + "/../data/data.json").read
 dataSet = JSON.parse(json)
 
-
 en = [];
 ja = [];
 dataSet.each do |data|

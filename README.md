@@ -15,6 +15,10 @@ It means we need a set of "standard tests" (benchmarks) to evaluate various LLMs
   - `ruby scripts/ToJson.rb`
 - Update Question markdown file.
   - `ruby scripts/JsonToMD.rb`
+- Run Gpt
+  - `GPT_API_KEY=sk-xxxx npx ts-node scripts/gpt.ts`
+
+
 
 ## Contribute
 
