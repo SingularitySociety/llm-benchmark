@@ -15,6 +15,7 @@
  - On a par 72 golf course, I had one birdie, three bogies and one double bogy, and the rest was par. What was my score?
  - We expect that this rental house gives us $1,000 a month of income in next ten years, and allows us to sell it for $300,000 at the end. What is the net present value of this house, when the interest rate is 4%.
  - I have two 24-hour clocks, A and B. A shows the correct time only once a day, while B shows the correct time only once a week. Assuming each clock moves at the constant speed, describe what is going on with them.
+ - On a standard clock, the hour hand (short hand) completes two full cycles every day, while the minute hand (long hand) completes twenty-four. However, there was a peculiar clock where the hour hand functioned normally, but the minute hand completed twenty-six full cycles per day instead of the usual twenty-four. If this unusual clock was set to 12 o'clock, when would the hour and minute hands align next?
 
 ## Japanese
  - サイコロ賭博の問題です。サイコロを投げる前に、どの目が出るかを予測し、それが当たった場合には、賭け金が目の数倍になって返ってくるけど、外れたら賭け金が没収されてしまいます。期待値を最大にする作戦を考えてください。
